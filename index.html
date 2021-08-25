@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Vacation</title>
+	<link rel="stylesheet" type="text/css" href="taohid.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container-fluid ">
+	<nav class="navbar navbar-expand-lg navbar-light sticky-top ">
+
+    <a class="navbar-brand" href="#">Explore Vacation</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		      <ul class="navbar-nav m-auto text-end">
+			        <li class="nav-item">
+			          <a class="nav-link m-2" href="#">Home</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link m-2" href="#destinations">Destination</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link m-2" href="#hotel">Hotels</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link m-2" href="#tour">Tour</a>
+			        </li>
+			        
+			        <li class="nav-item">
+			          <a class="nav-link m-2" href="#Blog">Blog</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link m-2" href="#footer">Contact</a>
+			        </li>
+		      </ul>
+		        <div class="input-group ms-auto" >
+			      <input type="text" class="form-control" placeholder="Search-here" aria-label="Username" aria-describedby="basic-addon1">
+			      <a class="input-group-text fa fa-search p-3" style="text-decoration: none;" id="basic-addon1"></a>
+             </div>
+		    </div>
+
+		</nav>
+
+	<div class="container w-100 mt-4" id="middle">
+		<div class="row">
+		<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 mt-4">
+			<h1>Discover The World With Us.</h1>
+			<p>Take control of your journey with dozens of high definition destinations and course lengths to choose from, including 5K’s through the Japanese Countryside, 10K’s through the Scottish Highlands, full marathons through the streets of Prague, and many more. Challenge yourself to travel the entire globe, and stay motivated with new destinations added each month.</p>
+			<a href="#middle" class="submit-btn" style="text-decoration: none;">Learn More</a>
+		</div>
+		<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 p-4 for mt-4" style="background-color: #00A6A6!important;">
+			<form class="row g-3" >
+				<h2>Pick Your Destination</h2>
+				<form class="row g-3">
+				  <div class="col-md-6">
+				    <label for="inputEmail4" class="form-label">Email</label>
+				    <input type="email" class="form-control" id="inputEmail4">
+				  </div>
+				  <div class="col-md-6">
+				    <label for="inputPassword4" class="form-label">Password</label>
+				    <input type="password" class="form-control" id="inputPassword4">
+				  </div>
+				  <div class="col-12">
+				    <label for="inputAddress" class="form-label">Address</label>
+				    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+				  </div>
+				  <div class="col-md-6">
+				    <label for="inputCity" class="form-label">City</label>
+				    <input type="text" class="form-control" id="inputCity">
+				  </div>
+				  <div class="col-md-4">
+				    <label for="inputState" class="form-label">State</label>
+				    <select id="inputState" class="form-select">
+				      <option selected>Choose one</option>
+				      <option>........</option>
+				      <option>........</option>
+				      <option>........</option>
+				      <option>........</option>
+				    </select>
+				  </div>
+				  <div class="col-md-2">
+				    <label for="inputZip" class="form-label">Zip</label>
+				    <input type="text" class="form-control" id="inputZip">
+				  </div>
+				  <div class="col-12">
+				    <div class="form-check">
+				      <input class="form-check-input" type="checkbox" id="gridCheck">
+				      <label class="form-check-label" for="gridCheck">
+				        Check me out
+				      </label>
+				    </div>
+				  </div>
+				  <div class="col-12 d-grid">
+				    <button type="submit" class="submit-btn-block">Sign in</button>
+				  </div>
+				</form>
+				</form>
+		</div>
+     </div>
+	</div>
+
+</div>
+
+<div class="cardd"  id="destinations">
+<div class="container" >
+ <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+    	<div class="row" >
+    		<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 mt-4">
+    		 <div class="card" style="background-color: #dfe5f0!important;">
+		      <img src="https://images.pexels.com/photos/2190283/pexels-photo-2190283.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="card-img-top" height="250px" alt="...">
+		      <div class="card-body">
+		        <h5 class="card-title">New York, USA.</h5>
+		        
+		      </div>
+		      
+         </div>   
+    		</div>
+    		<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 mt-4">
+    		 <div class="card" style="background-color: #dfe5f0!important;">
+		      <img src="https://images.pexels.com/photos/1850619/pexels-photo-1850619.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" height="250px" alt="...">
+		      <div class="card-body">
+		        <h5 class="card-title">Paris, France.</h5>
+		        
+		      </div>
+		      
+         </div>   
+    		</div>
+    		<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 mt-4">
+    		 <div class="card" style="background-color: #dfe5f0!important;">
+		      <img src="https://images.pexels.com/photos/2175952/pexels-photo-2175952.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" height="250px" alt="...">
+		      <div class="card-body">
+		        <h5 class="card-title">Sajek, Bangladesh.</h5>
+		      
+		      </div>
+		     
+         </div>   
+    		</div>
+    		<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 mt-4">
+    		 <div class="card" style="background-color: #dfe5f0!important;">
+		      <img src="https://images.pexels.com/photos/8897198/pexels-photo-8897198.jpeg?cs=srgb&dl=pexels-aaishi-maity-8897198.jpg&fm=jpg" height="250px" alt="...">
+		      <div class="card-body">
+		        <h5 class="card-title">Meghaloya, India.</h5>
+		        
+		      </div>
+		  
+         </div>   
+    		</div>
+    		
+    	</div>
+    </div>
+    <div class="carousel-item">
+      <div class="row" >
+    		<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 mt-4">
+    		 <div class="card" style="background-color: #dfe5f0!important;">
+		      <img src="https://images.pexels.com/photos/2857716/pexels-photo-2857716.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" height="250px" alt="...">
+		      <div class="card-body">
+		        <h5 class="card-title">Dubai, UAA.</h5>
+		      
+		      </div>
+		     
+         </div>   
+    		</div>
+    		<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 mt-4">
+    		 <div class="card" style="background-color: #dfe5f0!important;">
+		      <img src="https://images.pexels.com/photos/3309976/pexels-photo-3309976.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="..." height="250px">
+		      <div class="card-body">
+		        <h5 class="card-title">Katmundu, Nepal.</h5>
+		      
+		      </div>
+		      
+         </div>   
+    		</div>
+    		<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 mt-4">
+    		 <div class="card" style="background-color: #dfe5f0!important;">
+		      <img src="https://images.pexels.com/photos/5466394/pexels-photo-5466394.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" height="250px" alt="...">
+		      <div class="card-body">
+		        <h5 class="card-title">Tokiyo, Japan.</h5>
+		    
+		      </div>
+		      
+         </div>   
+    		</div>
+    		<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 mt-4">
+    		 <div class="card" style="background-color: #dfe5f0!important;">
+		      <img src="https://images.pexels.com/photos/4525420/pexels-photo-4525420.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" height="250px" alt="...">
+		      <div class="card-body">
+		        <h5 class="card-title">Thimpu, Bhutan.</h5>
+		        
+		      </div>
+		    
+         </div>   
+    		</div>
+    		
+    	</div>
+    </div>
+  
+     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+ </div>
+ </div>
+</div>
+</div>
+
+<div class="hotel" id="hotel">
+  	<div class="row text-center ">
+  		<h1>Find Hotels</h1>
+		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 dropdown text-dark mt-4">
+		          <label for="inputState" class="form-label">Where</label>
+				    <select id="inputState" class="form-select">
+				      <option selected>Choose one</option>
+				      <option>........</option>
+				      <option>........</option>
+				      <option>........</option>
+				      <option>........</option>
+				    </select>
+		</div>
+		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 dropdown mt-4">
+		          <label for="inputState" class="form-label text-left">Check In</label>
+				    <input type="text" class="form-control" id="inputAddress" placeholder="DD-MM-YYYY">
+		</div>
+		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 dropdown mt-4">
+		          <label for="inputState" class="form-label">Check Out</label>
+				    <input type="text" class="form-control" id="inputAddress" placeholder="DD-MM-YYYY">
+		</div>
+		<div class="col-2 mt-4">
+		          <label for="inputState" class="form-label">Persons</label>
+				    <input type="text" class="form-control" id="inputAddress" placeholder="01">
+		</div>
+		<div class="col-1 pt-2 mt-4">
+		          <button class="submit-btn mt-4">Submit</button>
+		</div>
+	</div>
+</div>
+
+<div class="plan">
+	  
+	  <div class="row m-0 p-0" style="background-color: #dfe5f0;">
+	  	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+	  		<img src="https://images.pexels.com/photos/845451/pexels-photo-845451.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="w-100 image-fluid">
+	  	</div>
+	  	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 " >
+	  		<h1 class="text-center" style="margin-top: 80px; font-weight: bold; font-size: 50px;">Our Best Services</h1>
+	  		<div class="container">
+	  			<div class="row  p-4">
+	  	  <div class="col-6 p-4">
+	  	  	<div class="d-flex">
+	  	  		<i class="fas fa-plane-departure"></i>
+	  	  		<a href="#">Booking Flight</a>
+	  	  	</div><br>
+	  	  	<div class="d-flex">
+	  	  		<i class="fab fa-tripadvisor"></i>
+	  	  		<a href="#">Planning Trips</a>
+	  	  	</div><br>
+	  	  	<div class="d-flex">
+	  	  		<i class="fas fa-globe-americas"></i>
+	  	  		<a href="#">Travel Worldwide</a>
+	  	  	</div><br>
+	  	  	<div class="d-flex">
+	  	  		<i class="fas fa-shield-alt"></i>
+	  	  		<a href="#">Tourist's Security</a>
+	  	  	</div><br>
+	  	  </div>
+	  	  <div class="col-6 p-4">
+	  	  	<div class="d-flex">
+	  	  		<i class="fab fa-cc-discover"></i>
+	  	  		<a href="#">Discover Vacation</a>
+	  	  	</div><br>
+	  	  	<div class="d-flex">
+	  	  		<i class="fas fa-mask"></i>
+	  	  		<a href="#">Event Trip</a>
+	  	  	</div><br>
+	  	  	<div class="d-flex">
+	  	  		<i class="fas fa-ship"></i>
+	  	  		<a href="#">Marine Drive</a>
+	  	  	</div><br>
+	  	  	<div class="d-flex">
+	  	  		<i class="far fa-moon"></i>
+	  	  		<a href="#">Moon Trip</a>
+	  	  	</div><br>
+	  	  </div>
+	  		</div>
+	  		</div>
+	  	</div>
+	  </div>
+</div>
+
+<div class="trip-card" id="tour">
+	<div class="container " style="padding: 80px;">
+		<h1 class="text-center">Tour Cards</h1>
+	 <div class="row">
+    		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 mt-4">
+    		 <div class="card" style="background-color: #dfe5f0!important;">
+		      <i class="fas fa-car"></i>
+		      <div class="card-body d-grid">
+		        <h5 class="card-title text-center">Low Budget Trip</h5> 
+		        <a href="#" class="submit-btn-block1 text-center ">$500</a>
+           <ul class="m-4">
+           	<li>Laos, Asia</li>
+           	<li>Vietnam,Asia.</li>
+           	<li> Cambodia,Asia.</li>
+           	<li>Northern Thailand, Asia.</li>
+           </ul>
+		      </div>
+		      
+         </div>   
+    		</div>
+    		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 mt-4">
+    		 <div class="card" style="background-color: #dfe5f0!important;">
+		      <i class="fas fa-subway"></i>
+		      <div class="card-body d-grid">
+		        <h5 class="card-title text-center">Mid Budget Trip</h5>
+		        <a href="#" class="submit-btn-block1 text-center">$800</a>
+            <ul class="m-4">
+           	<li> Indonesia,Asia.</li>
+           	<li>Alleppey – The Venice Of The East.</li>
+           	<li>Goa – The Land Of Beaches</li>
+           	<li>Rishikesh – The Yoga Capital</li>
+           </ul>
+		      </div>
+         </div>   
+    		</div>
+    		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 mt-4">
+    		 <div class="card" style="background-color: #dfe5f0!important;">
+		      <i class="fas fa-plane"></i>
+		      <div class="card-body d-grid">
+		        <h5 class="card-title text-center">High Budget Trip</h5>    
+		        <a href="#" class="submit-btn-block1 text-center">$1000</a>
+            <ul class="m-4">
+           	<li >Mexico</li>
+           	<li>Colombia.</li>
+           	<li>Romania.</li>
+           	<li>Repblic of Georgia.</li>
+           </ul>
+		      </div>
+		      
+         </div>   
+    		</div>
+    	</div>
+	</div>
+</div>
+
+<div class="hotel">
+	 <div class="text-center">
+	 	<h1 >See Our Special Promo Offers</h1>
+	 	<div class="row">
+	 		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3" >
+	 	  	<a href="#">
+	 	  		<img src="https://images.pexels.com/photos/130576/pexels-photo-130576.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" width="100%" height="350px" class="p-2 image-fluid" style="border-radius: 20px;">
+	 	  	<h2>Rangamati</h2>
+	 	  	</a>
+	 	  </div>
+	 	  
+	 	  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+	 	  	<a href="#">
+	 	  	<img src="https://images.pexels.com/photos/2132180/pexels-photo-2132180.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" width="100%" height="350px" class="p-2 image-fluid" style="border-radius: 20px;">
+	 	  	<h2>Bandarban</h2>
+	 	 	 	</a> 	
+	 	  </div>
+
+	 	  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+	 	  	<a href="#">
+	 	  	<img src="https://images.pexels.com/photos/414122/pexels-photo-414122.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" width="100%" height="350px" class="p-2 image-fluid" style="border-radius: 20px;">
+	 	  	<h2>Sylhet</h2>
+	 	  </a>
+	 	  </div>
+	 	  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+	 	  	<a href="#">
+	 	  	<img src="https://images.pexels.com/photos/164025/pexels-photo-164025.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" width="100%" height="350px" class="p-2 image-fluid" style="border-radius: 20px;">
+	 	  	<h2>Cox's Bazar</h2>
+	 	  </a>
+	 	  </div>
+	 	</div>
+	 	<br>
+	 	<a href="#" class="submit-btn mt-4 ">See Details</a>
+	 </div>
+</div>
+
+<div class="review" id="Blog" style="background-color: #dfe5f0; padding: 50px;">
+	<h1 class="text-center">Our Happy Tourists</h1>
+	 <div class="row">
+	 	  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+	 	  	<img src="https://images.pexels.com/photos/1268855/pexels-photo-1268855.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" width="100%" height="350px" class="p-2 image-fluid" style="border-radius: 20px;">
+	 	  </div>
+	 	  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+	 	  	<img src="https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" width="100%" height="350px" class="p-2 image-fluid" style="border-radius: 20px;">
+	 	  </div>
+	 	  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+	 	  	<img src="https://images.pexels.com/photos/1004584/pexels-photo-1004584.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" width="100%" height="350px" class="p-2 image-fluid" style="border-radius: 20px;">
+	 	  </div>
+	 	  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+	 	  	<img src="https://images.pexels.com/photos/386000/pexels-photo-386000.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" width="100%" height="350px" class="p-2 image-fluid" style="border-radius: 20px;">
+	 	  </div>
+  </div>
+  <div class="row pt-4">
+	 	  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+	 	  	<img src="https://images.pexels.com/photos/450062/pexels-photo-450062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" width="100%" height="350px" class="p-2 image-fluid" style="border-radius: 20px;">
+	 	  </div>
+	 	  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+	 	  	<img src="https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" width="100%" height="350px" class="p-2 image-fluid" style="border-radius: 20px;">
+	 	  </div>
+	 	  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+	 	  	<img src="https://images.pexels.com/photos/725255/pexels-photo-725255.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" width="100%" height="350px" class="p-2 image-fluid" style="border-radius: 20px;">
+	 	  </div>
+	 	  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+	 	  	<img src="https://images.pexels.com/photos/853199/pexels-photo-853199.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" width="100%" height="350px" class="p-2 image-fluid" style="border-radius: 20px;">
+	 	  </div>
+	 </div>
+
+
+
+
+<div class="container pt-4" >
+<h1>Customers Review</h1>
+ <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" style="vertical-align: middle;">
+    	<div class="d-flex">
+	  	  		<i class="fas fa-user-alt"></i>
+	  	  		<h2>John Cena</h2>
+	  	 </div>
+      <p>In its eccentric capital, crumbling façades of traditional wooden Georgian houses stand next to Soviet-era architecture and daring contemporary designs. I loved my stay in Tbilisi and was surprised by its wonderful soul and character. From Tbilisi, you can explore the stunning Caucasian Mountain range, take a dip in the Black Sea, or visit ancient hilltop monasteries (and a few of them inside caves) all over the country.
+    </p>
+      <div class="d-flex ">
+      	<i class="fas fa-star"></i>
+      	<i class="fas fa-star"></i>
+      	<i class="fas fa-star"></i>
+      	<i class="fas fa-star"></i>
+      	<i class="fas fa-star"></i>
+      </div>
+      
+    </div>
+    <div class="carousel-item">
+    	<div class="d-flex">
+	  	  		<i class="fas fa-user-alt"></i>
+	  	  		<h2>Roman Reigns</h2>
+	  	 </div>
+      <p>The world’s fifth-largest country is filled to the brim with amazing travel destinations. From the gob-smackingly huge waterfalls of Iguaçu, to seeing the bay of Rio de Janeiro from the top of Sugarloaf mountain, and on the colorful beach towns of the Bahia coast, Brazil is a whole world to explore — and that’s just highlighting a tiny corner of it! </p>
+      <div class="d-flex">
+      	<i class="fas fa-star"></i>
+      	<i class="fas fa-star"></i>
+      	<i class="fas fa-star"></i>
+      	<i class="fas fa-star"></i>
+      	<i class="fas fa-star"></i>
+      </div>
+
+    </div>
+    <div class="carousel-item">
+    	<div class="d-flex">
+	  	  		<i class="fas fa-user-alt"></i>
+	  	  		<h2>Brock Lesnar</h2>
+	  	 </div>
+      <p>Thailand remains one of the cheapest holiday destinations in the world. While the southern beaches have quite a few upscale resorts with higher prices, they represent great value if you’re after some luxury on a budget. If you’re more of a budget traveler, then you should know the travel costs in Thailand get lower as you go inland..</p>
+      <div class="d-flex">
+      	<i class="fas fa-star"></i>
+      	<i class="fas fa-star"></i>
+      	<i class="fas fa-star"></i>
+      	<i class="fas fa-star"></i>
+      	<i class="fas fa-star"></i>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+</div>
+
+<section id="footer">
+		<div class="container">
+			<div class="row text-center text-xs-center text-sm-left text-md-left">
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>About Us</h5>
+					<p>Make your way to the northern Chiang Mai region and you’ll be in budget travel heaven. There amid the rice fields, Buddhist temples and hill tribes you can find some of the best-value accommodation anywhere—whether you’re looking for a backpacker dorm bed (from $5) or a comfy hotel with swimming pool (from $30).</p>
+					
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>links</h5>
+
+					<ul class="list-unstyled quick-links">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Destination</a></li>
+						<li><a href="#">Tour</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Hotel</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>Services</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="#">Planning</a></li>
+						<li><a href="#">Flight</a></li>
+						<li><a href="#">Merine</a></li>
+						<li><a href="#">Get Started</a></li>
+						<li><a href="#">Advantur</a></li>
+					</ul>
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="row justify-content-center">
+  		<div class="col-xl-4 col-lg-4  col-md-12 col-sm-12 btn">
+  			<i class="fas fa-mobile-alt"></i>
+  			<span>+8801521254750</span>
+  		</div>
+  		<div class="col-xl-4 col-lg-4  col-md-12 col-sm-12 btn">
+  			<i class="fas fa-envelope"></i>
+  			<span>taohid.cse@gmail.com</span>
+  		</div>
+  		<div class="col-xl-4 col-lg-4  col-md-12 col-sm-12 btn">
+  			<i class="fab fa-facebook-f"></i>
+  			<i class="fab fa-twitter"></i>
+  			<i class="fab fa-linkedin-in"></i>
+  		</div>
+  	</div>
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-dark">
+					<p class="h6 text-center">© All right Reversed.<a class="text-dark ml-2" href="https://www.facebook.com/TaohidurRahman203" target="_blank">Taohidur Rahman</a></p>
+				</div>
+			
+			</div>	
+		</div>
+	</section>
+
+
+
+</body>
+</html>
